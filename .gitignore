@@ -1,0 +1,18 @@
+# Ambientes e caches locais
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Artefatos locais do Codex e da aplicação
+work/
+outputs/
+
+# Segredos locais do Streamlit nunca devem ir ao GitHub
+.streamlit/secrets.toml
+
+# Arquivos comuns do sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
